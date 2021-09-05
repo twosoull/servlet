@@ -50,7 +50,7 @@ public class RequestHeaderServlet extends HttpServlet {
         request.getHeaderNames().asIterator()
                 .forEachRemaining(headerName -> System.out.println("headerName = " + headerName));
 
-        System.out.println();
+        System.out.println("ㅇ");
     }
 
     private void printHeaderUtils(HttpServletRequest request) {
