@@ -83,6 +83,7 @@ public class RequestHeaderServlet extends HttpServlet {
                 request.getCharacterEncoding());
         System.out.println("--- Header 편의 조회 end ---");
         System.out.println();
+
     }
 
     //기타 정보
